@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main-container{
+    display: flex;
+    border-radius: 1rem;
+    width: 700px;
+    overflow: hidden;
+    box-shadow: 0 0 10px hsla(212, 21%, 14%, 0.2);
+}
+
+.main-container img{
+    width: 50%;
+}
+.summary{
+    padding: 2rem;
+    width: 50%;
+    text-align: left;
+}
+
+.summary .perfume{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: hsl(228, 12%, 48%)
+}
+
+.summary .Gabrielle{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    padding-right: 40px;
+    margin: 20px 0 20px 0;
+}
+
+.summary .floral{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    padding-right: 30px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: hsl(228, 12%, 48%);
+}
+
+.price{
+    margin-bottom: 50px;
+}
+.price span{
+    vertical-align: middle;
+}
+
+.price .actualPrice{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+    margin-right: 20px;
+}
+
+.price .discount{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+.cartButton{
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(30, 38%, 92%);
+}
+.cartButton img{
+    height: 15px;
+    width: 15px;
+    margin-right: 8px;
+}
+
+.cartButton:hover{
+    cursor: pointer;
+    background-color: hsl(152, 76%, 19%);
+    
+}
